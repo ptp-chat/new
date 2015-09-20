@@ -1,0 +1,45 @@
+// out: index.css, compress: true
+
+@import './common';
+
+.opening {
+  position:relative;
+  width:100%;
+  height:350px;
+  box-shadow:inset 0px -10px 5px -5px rgba(0,0,0,0.1);
+  color:@secondary-foreground;
+  font-weight:300;
+
+  @range: 10%;
+  .gradient (
+    darken(@secondary-background, @range),
+    lighten(@secondary-background, @range)
+  );
+
+  .title {
+    position:absolute;
+    text-align:center;
+    margin:0;
+    width:100%;
+    left:0;
+    top:75px;
+    font-size:50px;
+    font-weight:300;
+  }
+
+  .join {
+    position:absolute;
+    bottom:80px;
+    @width:350px;
+    width:@width;
+    background:none;
+    border:3px solid @secondary-foreground;
+    color:@secondary-foreground;
+    font-weight:400px;
+    font-size:30px;
+    padding:10px;
+    border-radius:10px;
+    left:50%;
+    margin-left:-(@width/2);
+  }
+}
