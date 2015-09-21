@@ -31,14 +31,17 @@ body {
 }
 
 #itop > h2 {
-  text-decoration: none;
   position: relative;
   text-align: center;
   top: 41%;
   font-family: 'Lato';
   font-size: 24px;
-  color: #dcdcdc;
   text-transform: lowercase;
+}
+
+#itop > h2 a {
+  text-decoration: none;
+  color: #dcdcdc;
 }
 
 #itop > h2 span {
