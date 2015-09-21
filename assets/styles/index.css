@@ -11,7 +11,7 @@ body {
   width: 100%;
   height: 400px;
 }
-
+/* Not being used at the moment 
 #itop .sbar {
   width: 100%;
   height: 60px;
@@ -19,7 +19,7 @@ body {
   position: relative;
   border-bottom: 3px solid #ccc;
 }
-
+*/
 #itop > h1 {
   position: relative;
   text-align: center;
