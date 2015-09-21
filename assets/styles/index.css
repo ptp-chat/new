@@ -26,7 +26,6 @@ body {
   top: 36%;
   font-family: 'Lato';
   color: #dcdcdc;
-  text-transform: lowercase;
   text-decoration: none;
 }
 
@@ -36,12 +35,12 @@ body {
   top: 46%;
   font-family: 'Lato';
   font-size: 24px;
-  text-transform: lowercase;
 }
 
 #itop > h2 a {
   text-decoration: none;
   color: #dcdcdc;
+  border-bottom:1px solid #dcdcdc;
 }
 
 #itop > h2 span {
@@ -61,15 +60,13 @@ nav {
 nav li {
   display: inline-block;
   padding: 26px;
-  border-bottom: 2px solid transparent;
   transition: 200ms;
   -webkit-transition: 200ms;
+  box-shadow:inset 0 0 0 transparent;
 }
 
 nav li:hover {
-  border-bottom: 2px solid #222;
-  transition: 200ms;
-  -webkit-transition: 200ms;
+  box-shadow:inset 0 -3px 0px #222;
 }
 
 nav .items {
@@ -83,14 +80,15 @@ nav a {
   color: #222;
   font-size: 17px;
   font-family: 'Open Sans';
-  text-transform: lowercase;
   opacity: .7;
   transition: 100ms;
   -webkit-transiton: 100ms;
+
 }
 
 nav a:hover {
   opacity: .9;
   transition: 100ms;
   -webkit-transiton: 100ms;
+
 }
