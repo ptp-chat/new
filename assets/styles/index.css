@@ -23,24 +23,28 @@ body {
 #itop > h1 {
   position: relative;
   text-align: center;
-  top: 31%;
+  top: 36%;
   font-family: 'Lato';
   color: #dcdcdc;
-  text-transform: lowercase;
+  text-decoration: none;
 }
 
 #itop > h2 {
-  text-decoration: none;
   position: relative;
   text-align: center;
-  top: 41%;
+  top: 46%;
   font-family: 'Lato';
   font-size: 24px;
+}
+
+#itop > h2 a {
+  text-decoration: none;
   color: #dcdcdc;
-  text-transform: lowercase;
+  border-bottom:1px solid #dcdcdc;
 }
 
 #itop > h2 span {
+  text-decoration: none;
   background: #4b5467;
   padding: 3px;
   border-radius: 2px;
@@ -56,20 +60,23 @@ nav {
 nav li {
   display: inline-block;
   padding: 26px;
-  border-bottom: 2px solid transparent;
   transition: 200ms;
   -webkit-transition: 200ms;
+  box-shadow:inset 0 0 0 transparent;
 }
 
 nav li:hover {
-  border-bottom: 2px solid #222;
-  transition: 200ms;
-  -webkit-transition: 200ms;
+  box-shadow:inset 0 -3px 0px #222;
 }
 
 nav .items {
   display:inline-block;
   margin:0 auto;
+}
+
+nav.sticky {
+  position:fixed;
+  top:0; left:0;
 }
 
 nav a {
@@ -78,14 +85,15 @@ nav a {
   color: #222;
   font-size: 17px;
   font-family: 'Open Sans';
-  text-transform: lowercase;
   opacity: .7;
   transition: 100ms;
   -webkit-transiton: 100ms;
+
 }
 
 nav a:hover {
   opacity: .9;
   transition: 100ms;
   -webkit-transiton: 100ms;
+
 }
