@@ -30,6 +30,7 @@ body {
 }
 
 #itop > h2 {
+  text-decoration: none;
   position: relative;
   text-align: center;
   top: 41%;
