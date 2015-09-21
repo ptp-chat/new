@@ -49,6 +49,7 @@ nav {
   width: 100%;
   background: #eee;
   text-align: center;
+  height: 75px;
 }
 
 nav li {
@@ -66,7 +67,6 @@ nav li:hover {
 }
 
 nav a {
-  float: right;
   text-decoration: none;
   color: #222;
   font-size: 17px;
