@@ -23,7 +23,7 @@ body {
 #itop > h1 {
   position: relative;
   text-align: center;
-  top: 31%;
+  top: 36%;
   font-family: 'Lato';
   color: #dcdcdc;
   text-transform: lowercase;
@@ -33,7 +33,7 @@ body {
 #itop > h2 {
   position: relative;
   text-align: center;
-  top: 41%;
+  top: 46%;
   font-family: 'Lato';
   font-size: 24px;
   text-transform: lowercase;
