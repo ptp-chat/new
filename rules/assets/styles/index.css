@@ -2,12 +2,6 @@
   margin: auto;
 }
 
-body,
-html {
-  margin: 0;
-  padding: 5px
-}
-
 body {
   line-height: 1.5;
   font-family: 'Open Sans', sans-serif
@@ -48,6 +42,7 @@ body {
 }
 
 ol.rules {
+  width: 750px;
   padding: 0;
   counter-reset: li;
 }
