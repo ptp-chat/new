@@ -91,3 +91,94 @@ ol.rules hr {
   margin: 0;
   padding: 0
 }
+#itop {
+  background: #2b303b;
+  width: 100%;
+  height: 400px;
+}
+/* Not being used at the moment
+#itop .sbar {
+  width: 100%;
+  height: 60px;
+  background: #eee;
+  position: relative;
+  border-bottom: 3px solid #ccc;
+}
+*/
+#itop > h1 {
+  position: relative;
+  text-align: center;
+  top: 36%;
+  font-family: 'Lato';
+  color: #dcdcdc;
+  text-decoration: none;
+}
+
+#itop > h2 {
+  position: relative;
+  text-align: center;
+  top: 46%;
+  font-family: 'Lato';
+  font-size: 24px;
+}
+
+#itop > h2 a {
+  text-decoration: none;
+  color: #dcdcdc;
+  border-bottom:1px solid #dcdcdc;
+}
+
+#itop > h2 span {
+  text-decoration: none;
+  background: #4b5467;
+  padding: 3px;
+  border-radius: 2px;
+}
+
+nav {
+  width: 100%;
+  background: #eee;
+  text-align: center;
+  height: 75px;
+}
+
+nav li {
+  display: inline-block;
+  padding: 26px;
+  transition: 200ms;
+  -webkit-transition: 200ms;
+  box-shadow:inset 0 0 0 transparent;
+}
+
+nav li:hover {
+  box-shadow:inset 0 -3px 0px #222;
+}
+
+nav .items {
+  display:inline-block;
+  margin:0 auto;
+}
+
+nav.sticky {
+  position:fixed;
+  top:0; left:0;
+}
+
+nav a {
+  float:left;
+  text-decoration: none;
+  color: #222;
+  font-size: 17px;
+  font-family: 'Open Sans';
+  opacity: .7;
+  transition: 100ms;
+  -webkit-transiton: 100ms;
+
+}
+
+nav a:hover {
+  opacity: .9;
+  transition: 100ms;
+  -webkit-transiton: 100ms;
+
+}
