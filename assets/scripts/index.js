@@ -3,6 +3,7 @@
   $(function(){
 
   var base = $(window),
+      body = $('body'),
       head = $('#itop'),
       nav = $('nav');
 
