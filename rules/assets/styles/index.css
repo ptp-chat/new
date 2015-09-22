@@ -42,6 +42,7 @@ body {
 }
 
 ol.rules {
+  margin-top: 15px;
   width: 750px;
   padding: 0;
   counter-reset: li;
