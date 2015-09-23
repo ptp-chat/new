@@ -15,7 +15,7 @@ body.sticky .nav {
   top: 0;
   left: 0;
 }
-#itop {
+#opening {
   background: #2b303b;
   width: 100%;
   height: 400px;
@@ -24,24 +24,24 @@ body.sticky .nav {
   color: #dcdcdc;
   text-decoration: none;
 }
-#itop > h1,
-#itop > h2 {
+#opening > h1,
+#opening > h2 {
   position: relative;
   margin: 0;
 }
-#itop > h1 {
+#opening > h1 {
   top: 36%;
 }
-#itop > h2 {
+#opening > h2 {
   top: 46%;
   font-size: 24px;
 }
-#itop > h2 a {
+#opening > h2 a {
   text-decoration: inherit;
   color: inherit;
   border-bottom: 1px solid #dcdcdc;
 }
-#itop > h2 span {
+#opening > h2 span {
   background: #4b5467;
   padding: 3px;
   border-radius: 2px;
