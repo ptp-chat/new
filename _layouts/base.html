@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    {% include _head.html %}
+    <link href='assets/styles/{{ page.name }}.css' rel='stylesheet' type='text/css'>
+    <script src='assets/scripts/{{ page.name }}.js'></script>
+    <title>{{ page.title }}</title>
+  </head>
+  <body>
+
+    <div class="opening">
+      <h1>Programmers' Thinking Pub</h1>
+      <h2><a href="#">Join <span>33</span> other users.</a></h2>
+    </div>
+
+    <div class='nav'>
+      <div class='items'>
+        <a href="/"><li>Home</li></a>
+        <a href="join"><li>Join</li></a>
+        <a href="rules"><li>Rules</li></a>
+        <a href="https://github.com/ptp-chat"><li>Github</li></a>
+      </div>
+    </nav>
+
+    <div class='content'>
+      {{ content }}
+    </div>
+
+  </body>
+</html>
