@@ -3,7 +3,7 @@
   <head>
     {% include head.html %}
     <link href='assets/styles/{{ page.asset }}.css' rel='stylesheet' type='text/css'>
-    {% if !page.noScript %}<script src='assets/scripts/{{ page.asset }}.js'></script>{% endif %}
+    {% if page.script %}<script src='assets/scripts/{{ page.asset }}.js'></script>{% endif %}
     <title>{{ page.title }}</title>
   </head>
   <body>
