@@ -83,32 +83,6 @@ body.sticky .nav {
   width: 100%;
   overflow: auto;
 }
-.title {
-  border-bottom: 2px solid #ed706c;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.title h1 {
-  font-weight: 300;
-  margin: 0;
-}
-.title .join {
-  display: inline-block;
-  background-color: #ed706c;
-  width: 200px;
-  height: 90px;
-  color: #fff;
-  text-decoration: none;
-  text-align: center;
-  box-sizing: border-box;
-  padding-top: 25px;
-}
-.title .join small {
-  display: block;
-  font-size: 12px;
-  margin: 0;
-}
 .container {
   padding: 0 16px;
 }
@@ -117,6 +91,7 @@ ol.rules {
   padding: 25px;
   margin: auto;
   counter-reset: li;
+  font-weight: 400;
 }
 ol.rules li {
   height: 48px;
