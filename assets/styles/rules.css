@@ -114,8 +114,7 @@ body.sticky .nav {
 }
 ol.rules {
   width: 750px;
-  padding: 25px;
-  margin: auto;
+  padding: 0;
   counter-reset: li;
 }
 ol.rules li {
